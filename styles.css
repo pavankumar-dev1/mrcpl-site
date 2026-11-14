@@ -154,3 +154,13 @@ footer.site{padding:3.5rem 0 1.2rem;background:#0a1b2b;color:#d6dfe6;border-top:
 .developer-credit a{color:#dfc58f;text-decoration:none}
 .developer-credit a:hover{text-decoration:underline}
 @media(max-width:760px){.developer-credit{align-items:flex-start;flex-direction:column;gap:.35rem}}
+
+.project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem}
+.project-card{overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px rgba(16,36,58,.05)}
+.project-card>img{width:100%;height:230px;object-fit:cover}
+.project-card-body{padding:1.35rem}
+.project-label{display:block;margin-bottom:.65rem;color:#9a7b46;font-size:.65rem;font-weight:800;letter-spacing:.11em;line-height:1.5}
+.project-card h3{font-size:1.35rem}
+.project-card p{margin:0;color:var(--muted);font-size:.9rem}
+@media(max-width:950px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.project-grid{grid-template-columns:1fr}.project-card>img{height:210px}}
