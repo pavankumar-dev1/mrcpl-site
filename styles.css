@@ -343,3 +343,27 @@ header.site nav a{font-size:.8rem}
 .service-portfolio-grid .portfolio-card>h3{min-height:3.1em}
 .service-portfolio-grid .portfolio-card>p:not(.eyebrow){min-height:3.2rem}
 .service-portfolio-grid .portfolio-card>.scope-list{margin-top:auto;padding-top:1rem}
+
+
+/* Accessible mobile navigation */
+.menu-toggle{display:none;align-content:center;justify-items:center;gap:5px;width:48px;height:48px;padding:0;border:1px solid var(--line);background:#fff;color:var(--navy);cursor:pointer}
+.menu-toggle span{display:block;width:21px;height:2px;background:currentColor;transition:transform .2s ease,opacity .2s ease}
+.mobile-project-link{display:none}
+@media(max-width:1100px){
+ header.site .wrap{min-height:74px;display:grid;grid-template-columns:1fr auto;gap:0 1rem;padding-block:.7rem}
+ header.site .brand{grid-column:1;grid-row:1}
+ .menu-toggle{display:grid;grid-column:2;grid-row:1;justify-self:end}
+ .menu-toggle:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+ .menu-toggle.is-open span:first-child{transform:translateY(7px) rotate(45deg)}
+ .menu-toggle.is-open span:nth-child(2){opacity:0}
+ .menu-toggle.is-open span:last-child{transform:translateY(-7px) rotate(-45deg)}
+ header.site .site-nav{display:none;grid-column:1/-1;grid-row:2;width:100%;margin:0;padding:.5rem 0 0;overflow:visible;border-top:1px solid var(--line)}
+ header.site .site-nav.is-open{display:block}
+ header.site .site-nav ul{display:flex;flex-direction:column;align-items:stretch;gap:0}
+ header.site .site-nav li a{display:flex;align-items:center;justify-content:space-between;padding:.78rem .35rem;white-space:normal;font-size:.94rem;border-bottom:1px solid var(--line)}
+ header.site .site-nav .mobile-project-link{display:block;margin:.5rem 0 0}
+ header.site .site-nav .mobile-project-link a{padding:.9rem 1rem;background:var(--navy);color:#fff;border:0}
+ header.site .site-nav .mobile-project-link a:hover{background:var(--navy-2)}
+ header.site .header-cta{display:none}
+}
+@media(prefers-reduced-motion:reduce){.menu-toggle span{transition:none}}
