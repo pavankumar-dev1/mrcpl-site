@@ -432,3 +432,12 @@ main#main>section[id]{scroll-margin-top:105px}
 .about-commitment-statement p{font-size:clamp(1.08rem,1.5vw,1.18rem)}
 .about-commitment-statement strong{font-size:clamp(.92rem,1.15vw,1rem)}
 @media(max-width:640px){.section-heading{padding:1.1rem 1.05rem;margin-bottom:2rem}.section-heading h2{font-size:clamp(1.8rem,8vw,2.4rem)}}
+
+
+/* Match the highlighted titles to MRCPL's navy-blue brand */
+.section-heading h2{color:#10243a}
+.about-commitment-statement{background:linear-gradient(120deg,#e9f0f5 0%,#f5f8fa 100%);border:1px solid #d8e2e8;border-top:4px solid var(--gold)}
+.about-commitment-statement>span{color:#183b57}
+.about-commitment-statement h3{color:#10243a}
+.about-commitment-statement p{color:#4d6271}
+.about-commitment-statement strong{color:#183b57}
