@@ -268,3 +268,15 @@ header.site nav ul{gap:clamp(.6rem,1vw,1rem)}
 header.site nav a{font-size:.8rem}
 @media(max-width:900px){.resource-grid{grid-template-columns:1fr 1fr}.resource-note{grid-template-columns:1fr}.strength-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.resource-grid,.strength-grid{grid-template-columns:1fr}.strength-grid article{min-height:0}}
+
+.hero-premium{min-height:680px;background:linear-gradient(90deg,rgba(7,21,35,.94) 0%,rgba(7,21,35,.82) 48%,rgba(7,21,35,.3) 100%),url("assets/photos/service-civil.jpg") center 42%/cover}
+.hero-premium .hero-grid{display:block;padding-block:clamp(6rem,10vw,8.5rem)}
+.hero-premium .hero-copy{max-width:900px}
+.hero-premium .hero-copy h1{max-width:12ch;font-family:var(--sans);font-size:clamp(3.6rem,7vw,6.8rem);font-weight:800;letter-spacing:-.065em;line-height:.98}
+.hero-premium .hero-copy h1 span{display:block;color:#d4b579}
+.hero-premium .hero-lede{max-width:58ch}
+.hero-premium .hero-proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:780px;gap:1rem;margin-top:3rem;padding-top:1.3rem}
+.hero-premium .hero-proof span{display:grid;gap:.3rem}
+.hero-premium .hero-proof strong{color:#e1c58c;font-size:1.1rem}
+@media(max-width:760px){.hero-premium{min-height:0;background-position:58% center}.hero-premium .hero-grid{padding-block:5rem}.hero-premium .hero-copy h1{font-size:clamp(3.2rem,11vw,5rem)}}
+@media(max-width:560px){.hero-premium .hero-proof{grid-template-columns:1fr;gap:.7rem;margin-top:2.1rem}.hero-premium .hero-proof span{grid-template-columns:95px 1fr;align-items:center}.hero-premium .hero-proof strong{font-size:.95rem}.hero-premium .hero-grid{padding-block:4rem}}
