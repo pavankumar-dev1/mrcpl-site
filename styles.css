@@ -280,3 +280,28 @@ header.site nav a{font-size:.8rem}
 .hero-premium .hero-proof strong{color:#e1c58c;font-size:1.1rem}
 @media(max-width:760px){.hero-premium{min-height:0;background-position:58% center}.hero-premium .hero-grid{padding-block:5rem}.hero-premium .hero-copy h1{font-size:clamp(3.2rem,11vw,5rem)}}
 @media(max-width:560px){.hero-premium .hero-proof{grid-template-columns:1fr;gap:.7rem;margin-top:2.1rem}.hero-premium .hero-proof span{grid-template-columns:95px 1fr;align-items:center}.hero-premium .hero-proof strong{font-size:.95rem}.hero-premium .hero-grid{padding-block:4rem}}
+
+
+/* Service portfolio photography */
+.service-portfolio-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem}
+.portfolio-card{padding:0 0 1.35rem;overflow:hidden;border:1px solid var(--line);border-top:3px solid var(--gold)}
+.portfolio-photo{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#e8edf0}
+.portfolio-number{top:1.25rem;right:1.2rem;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.8);z-index:1}
+.portfolio-card>.eyebrow,.portfolio-card>h3,.portfolio-card>p:not(.eyebrow),.portfolio-card>.scope-list{margin-left:1.4rem;margin-right:1.4rem}
+.portfolio-card>.eyebrow{margin-top:1.3rem}
+.portfolio-card>h3{margin-top:.4rem}
+.portfolio-card>.scope-list{margin-bottom:.3rem}
+.portfolio-card-railway{min-height:250px;background:linear-gradient(145deg,#10243a,#183951 68%,#b89b62);color:#fff;display:flex;flex-direction:column;justify-content:flex-end}
+.portfolio-card-railway .portfolio-number{color:#e9d8b5}
+.portfolio-card-railway>.eyebrow{color:#dfc58f}
+.portfolio-card-railway h3{color:#fff}
+.portfolio-card-railway>p:not(.eyebrow){color:#e3e9ee}
+.who-we-are{background:#fff}
+.who-we-are-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(2rem,6vw,5.5rem)}
+.who-we-are-copy h2{max-width:14ch}
+.who-we-are-copy>p:not(.eyebrow){color:var(--muted);font-size:.98rem;line-height:1.8}
+.who-we-are-image{margin:0;position:relative}
+.who-we-are-image img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.who-we-are-image figcaption{padding:.75rem 1rem;background:#10243a;color:#e5e9ed;font-size:.75rem;letter-spacing:.04em}
+@media(max-width:900px){.service-portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.who-we-are-grid{gap:2rem}}
+@media(max-width:560px){.service-portfolio-grid,.who-we-are-grid{grid-template-columns:1fr}.portfolio-card>p:not(.eyebrow){min-height:0}}
