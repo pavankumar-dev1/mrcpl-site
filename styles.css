@@ -212,3 +212,5 @@ footer.site{padding:3.5rem 0 1.2rem;background:#0a1b2b;color:#d6dfe6;border-top:
 @media(max-width:900px){.about-photo-grid{grid-template-columns:1fr 1fr}.about-photo-grid figure:first-child{grid-column:1/-1}.about-photo-grid img,.about-photo-grid figure:first-child img{height:300px}}
 @media(max-width:560px){.about-photo-grid{grid-template-columns:1fr}.about-photo-grid figure:first-child{grid-column:auto}.about-photo-grid img,.about-photo-grid figure:first-child img{height:260px}}
 @media(prefers-reduced-motion:reduce){.about-photo-grid img{transition:none}.about-photo-grid figure:hover img{transform:none}}
+
+.footer-tagline{max-width:29ch!important;color:#e3c891!important;font-size:.82rem!important;font-weight:750;letter-spacing:.1em;line-height:1.7;text-transform:uppercase}
