@@ -419,6 +419,6 @@ main#main>section[id]{scroll-margin-top:105px}
 .about-commitment-statement strong{margin-top:1.2rem;color:#e3c891;font-size:.9rem;line-height:1.75}
 
 /* Leadership photo sizing */
-.about-leadership .about-director-image{width:100%;max-width:380px;margin-inline:auto}
-.about-leadership .about-director-image img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.about-leadership .about-director-image{width:100%;max-width:335px;margin-inline:auto}
+.about-leadership .about-director-image img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center}
 @media(max-width:650px){.about-leadership .about-director-image{max-width:380px}}
