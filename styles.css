@@ -269,7 +269,7 @@ header.site nav a{font-size:.8rem}
 @media(max-width:900px){.resource-grid{grid-template-columns:1fr 1fr}.resource-note{grid-template-columns:1fr}.strength-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.resource-grid,.strength-grid{grid-template-columns:1fr}.strength-grid article{min-height:0}}
 
-.hero-premium{min-height:680px;background:linear-gradient(90deg,rgba(7,21,35,.94) 0%,rgba(7,21,35,.82) 48%,rgba(7,21,35,.3) 100%),url("assets/photos/service-civil.jpg") center 42%/cover}
+.hero-premium{min-height:680px;background:linear-gradient(90deg,rgba(7,21,35,.94) 0%,rgba(7,21,35,.82) 48%,rgba(7,21,35,.3) 100%),url("assets/photos/hero-construction.png") center 42%/cover}
 .hero-premium .hero-grid{display:block;padding-block:clamp(6rem,10vw,8.5rem)}
 .hero-premium .hero-copy{max-width:900px}
 .hero-premium .hero-copy h1{max-width:12ch;font-family:var(--sans);font-size:clamp(3.6rem,7vw,6.8rem);font-weight:800;letter-spacing:-.065em;line-height:.98}
