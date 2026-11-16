@@ -422,3 +422,13 @@ main#main>section[id]{scroll-margin-top:105px}
 .about-leadership .about-director-image{width:100%;max-width:335px;margin-inline:auto}
 .about-leadership .about-director-image img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center}
 @media(max-width:650px){.about-leadership .about-director-image{max-width:380px}}
+
+
+/* Highlight section titles with a consistent premium treatment */
+.section-heading{max-width:840px;margin-bottom:2.5rem;padding:clamp(1.15rem,2vw,1.65rem) clamp(1.15rem,2vw,1.75rem);border:1px solid #e1e8ed;border-left:4px solid var(--gold);background:linear-gradient(115deg,#f2f6f8 0%,#fff 100%);box-shadow:0 12px 28px rgba(16,36,58,.055)}
+.section-heading .eyebrow-dark{display:inline-flex;align-items:center;gap:.65rem;margin-bottom:.9rem;padding:.38rem .62rem;background:#e8eef2;color:#8b6b38;font-size:.7rem;letter-spacing:.17em}
+.section-heading h2{margin-bottom:.65rem;text-wrap:balance}
+.about-commitment-statement h3{font-size:clamp(1.9rem,3.8vw,2.7rem)}
+.about-commitment-statement p{font-size:clamp(1.08rem,1.5vw,1.18rem)}
+.about-commitment-statement strong{font-size:clamp(.92rem,1.15vw,1rem)}
+@media(max-width:640px){.section-heading{padding:1.1rem 1.05rem;margin-bottom:2rem}.section-heading h2{font-size:clamp(1.8rem,8vw,2.4rem)}}
