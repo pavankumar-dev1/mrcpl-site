@@ -335,3 +335,11 @@ header.site nav a{font-size:.8rem}
 .about-commitment-statement strong{display:block;margin-top:.9rem;color:var(--ink);font-size:.77rem;letter-spacing:.03em}
 @media(max-width:900px){.about-overview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-approach-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.about-overview-grid,.about-approach-grid{grid-template-columns:1fr}.about-overview-grid article,.about-approach-grid article{min-height:0}}
+
+
+/* Align every portfolio card to the same content rhythm */
+.service-portfolio-grid .portfolio-card{display:flex;flex-direction:column}
+.service-portfolio-grid .portfolio-card>.eyebrow{min-height:1.2em}
+.service-portfolio-grid .portfolio-card>h3{min-height:3.1em}
+.service-portfolio-grid .portfolio-card>p:not(.eyebrow){min-height:3.2rem}
+.service-portfolio-grid .portfolio-card>.scope-list{margin-top:auto;padding-top:1rem}
