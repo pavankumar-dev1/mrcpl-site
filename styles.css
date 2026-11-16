@@ -249,3 +249,22 @@ footer.site{padding:3.5rem 0 1.2rem;background:#0a1b2b;color:#d6dfe6;border-top:
 .about-values span{padding:.6rem .75rem;border:1px solid #dce3e8;color:var(--navy);font-size:.67rem;font-weight:750;letter-spacing:.05em}
 @media(max-width:850px){.service-index-band .wrap{align-items:flex-start;flex-direction:column;gap:.6rem}.service-delivery{grid-template-columns:1fr}.railway-support{grid-template-columns:1fr;gap:.8rem}}
 @media(max-width:600px){.service-portfolio-grid,.about-purpose-grid{grid-template-columns:1fr}.portfolio-card{padding:1.35rem}.portfolio-card>p:not(.eyebrow){min-height:0}.service-index-band nav{gap:.6rem .9rem}}
+
+.resource-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.resource-grid article{padding:1.65rem;background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold)}
+.resource-grid article>span,.resource-note aside>span{color:#9a7b46;font-size:.65rem;font-weight:800;letter-spacing:.13em}
+.resource-grid h3{margin:.8rem 0 .55rem;font-size:1.35rem}
+.resource-grid p,.resource-note aside p{margin:0;color:var(--muted);font-size:.91rem}
+.resource-note{display:grid;grid-template-columns:1fr .75fr;gap:2.5rem;align-items:center}
+.resource-note h2{max-width:16ch}
+.resource-note aside{padding:1.6rem;background:#fff;border-left:3px solid var(--gold)}
+.resource-note aside p{margin-top:.7rem}
+.strength-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.strength-grid article{min-height:190px;padding:1.4rem;background:#fff}
+.strength-grid article>span{color:#9a7b46;font-size:.72rem;font-weight:800;letter-spacing:.1em}
+.strength-grid h3{margin:.8rem 0 .5rem;font-family:var(--sans);font-size:1rem;font-weight:750;letter-spacing:0}
+.strength-grid p{margin:0;color:var(--muted);font-size:.88rem}
+header.site nav ul{gap:clamp(.6rem,1vw,1rem)}
+header.site nav a{font-size:.8rem}
+@media(max-width:900px){.resource-grid{grid-template-columns:1fr 1fr}.resource-note{grid-template-columns:1fr}.strength-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.resource-grid,.strength-grid{grid-template-columns:1fr}.strength-grid article{min-height:0}}
