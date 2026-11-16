@@ -383,3 +383,7 @@ header.site nav a{font-size:.8rem}
  header.site .mobile-menu[open]>.menu-toggle span:nth-child(2){opacity:0}
  header.site .mobile-menu[open]>.menu-toggle span:last-child{transform:translateY(-7px) rotate(-45deg)}
 }
+
+
+.about-intro-text-only{grid-template-columns:1fr;max-width:920px}
+.about-intro-text-only .about-copy{max-width:760px}
