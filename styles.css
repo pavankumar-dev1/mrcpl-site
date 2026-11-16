@@ -387,3 +387,15 @@ header.site nav a{font-size:.8rem}
 
 .about-intro-text-only{grid-template-columns:1fr;max-width:920px}
 .about-intro-text-only .about-copy{max-width:760px}
+
+
+/* Keep desktop navigation visible independently from the mobile disclosure */
+.desktop-nav{display:block}
+.mobile-menu{display:none}
+.mobile-menu>.site-nav{display:none}
+@media(max-width:1100px){
+ header.site .desktop-nav{display:none}
+ header.site .mobile-menu{display:contents}
+ header.site .mobile-menu:not([open])>.site-nav{display:none}
+ header.site .mobile-menu[open]>.site-nav{display:block}
+}
