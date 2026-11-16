@@ -315,3 +315,23 @@ header.site nav a{font-size:.8rem}
 .portfolio-card-railway h3{color:var(--ink)}
 .portfolio-card-railway>p:not(.eyebrow){color:var(--muted)}
 @media(max-width:560px){.service-portfolio-grid .portfolio-photo{height:230px}}
+
+
+/* Company profile content on About */
+.about-overview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.about-overview-grid article{min-height:190px;padding:1.45rem;background:#fff}
+.about-overview-grid article>span,.about-approach-grid article>span{color:#9a7b46;font-size:.7rem;font-weight:800;letter-spacing:.13em}
+.about-overview-grid h3{margin:.9rem 0 .55rem;font-family:var(--sans);font-size:1.02rem;font-weight:750;letter-spacing:0;line-height:1.35}
+.about-overview-grid p{margin:0;color:var(--muted);font-size:.86rem;line-height:1.65}
+.about-overview-link{display:inline-block;margin-top:1.5rem}
+.about-approach-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+.about-approach-grid article{min-height:190px;padding:1.5rem;background:#fff;border-top:3px solid var(--gold)}
+.about-approach-grid h3{margin:.85rem 0 .55rem;font-family:var(--sans);font-size:1.05rem;letter-spacing:0}
+.about-approach-grid p{margin:0;color:var(--muted);font-size:.88rem;line-height:1.7}
+.about-approach-commitment,.about-commitment-statement{margin-top:1.5rem;padding:1.5rem 1.7rem;border-left:3px solid var(--gold);background:#fff}
+.about-approach-commitment strong,.about-commitment-statement>span{color:#9a7b46;font-size:.68rem;font-weight:800;letter-spacing:.14em}
+.about-approach-commitment p,.about-commitment-statement p{margin:.65rem 0 0;color:var(--muted);line-height:1.75}
+.about-commitment-statement h3{margin:.5rem 0 0;font-family:var(--sans);font-size:1.1rem;letter-spacing:0}
+.about-commitment-statement strong{display:block;margin-top:.9rem;color:var(--ink);font-size:.77rem;letter-spacing:.03em}
+@media(max-width:900px){.about-overview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-approach-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.about-overview-grid,.about-approach-grid{grid-template-columns:1fr}.about-overview-grid article,.about-approach-grid article{min-height:0}}
