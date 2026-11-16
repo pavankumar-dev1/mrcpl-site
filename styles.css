@@ -399,3 +399,6 @@ header.site nav a{font-size:.8rem}
  header.site .mobile-menu:not([open])>.site-nav{display:none}
  header.site .mobile-menu[open]>.site-nav{display:block}
 }
+
+html{scroll-behavior:smooth;scroll-padding-top:105px}
+main#main>section[id]{scroll-margin-top:105px}
