@@ -305,3 +305,13 @@ header.site nav a{font-size:.8rem}
 .who-we-are-image figcaption{padding:.75rem 1rem;background:#10243a;color:#e5e9ed;font-size:.75rem;letter-spacing:.04em}
 @media(max-width:900px){.service-portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.who-we-are-grid{gap:2rem}}
 @media(max-width:560px){.service-portfolio-grid,.who-we-are-grid{grid-template-columns:1fr}.portfolio-card>p:not(.eyebrow){min-height:0}}
+
+
+/* Keep every service image frame identical */
+.service-portfolio-grid .portfolio-photo{display:block;width:100%;height:240px;aspect-ratio:auto;object-fit:cover;object-position:center}
+.portfolio-card-railway{min-height:0;display:block;background:#fff;color:var(--ink)}
+.portfolio-card-railway .portfolio-number{color:#fff}
+.portfolio-card-railway>.eyebrow{color:#9a7b46}
+.portfolio-card-railway h3{color:var(--ink)}
+.portfolio-card-railway>p:not(.eyebrow){color:var(--muted)}
+@media(max-width:560px){.service-portfolio-grid .portfolio-photo{height:230px}}
