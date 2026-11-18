@@ -467,3 +467,10 @@ main#main>section[id]{scroll-margin-top:105px}
 .about-photo-grid figure:first-child{grid-column:auto}
 .about-photo-grid img,.about-photo-grid figure:first-child img{height:320px}
 @media(max-width:560px){.about-photo-grid{grid-template-columns:1fr}.about-photo-grid figure:first-child{grid-column:auto}.about-photo-grid img,.about-photo-grid figure:first-child img{height:260px}}
+
+
+/* Project gallery: portrait frames with complete uncropped photos. */
+.about-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.about-photo-grid figure:first-child{grid-column:auto}
+.about-photo-grid img,.about-photo-grid figure:first-child img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:contain;object-position:center;background:#e9eef2}
+@media(max-width:560px){.about-photo-grid{grid-template-columns:1fr}.about-photo-grid figure:first-child{grid-column:auto}}
