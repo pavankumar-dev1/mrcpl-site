@@ -29,7 +29,7 @@ h3{font-size:1.45rem}
 p{max-width:72ch;margin:0 0 1rem}
 .eyebrow{margin:0 0 1.1rem;color:#e3c891;font-size:.72rem;font-weight:800;line-height:1.5;letter-spacing:.19em;text-transform:uppercase}
 .eyebrow-dark{color:#9a7b46}
-.hero{position:relative;overflow:hidden;background:linear-gradient(105deg,rgba(8,25,41,.97) 0%,rgba(8,25,41,.92) 53%,rgba(8,25,41,.68) 100%),url("assets/photos/service-civil.jpg") center/cover;color:#fff}
+.hero{position:relative;overflow:hidden;background:linear-gradient(105deg,rgba(8,25,41,.97) 0%,rgba(8,25,41,.92) 53%,rgba(8,25,41,.68) 100%),url("assets/photos/service-civil.jpg?v=github-pages-assets-15") center/cover;color:#fff}
 .hero-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(350px,.88fr);align-items:center;gap:clamp(2.2rem,5vw,5.5rem);padding-block:clamp(4.5rem,8vw,7.2rem)}
 .hero-copy h1{max-width:12ch;color:#fff;margin-bottom:1.25rem;font-size:clamp(3rem,5.7vw,5.3rem);line-height:1.01}
 .hero-lede{max-width:56ch;color:#d9e1e7;font-size:clamp(1.05rem,1.45vw,1.22rem);line-height:1.75}
@@ -269,7 +269,7 @@ header.site nav a{font-size:.8rem}
 @media(max-width:900px){.resource-grid{grid-template-columns:1fr 1fr}.resource-note{grid-template-columns:1fr}.strength-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.resource-grid,.strength-grid{grid-template-columns:1fr}.strength-grid article{min-height:0}}
 
-.hero-premium{min-height:680px;background:linear-gradient(90deg,rgba(7,21,35,.94) 0%,rgba(7,21,35,.82) 48%,rgba(7,21,35,.3) 100%),url("assets/photos/hero-construction.png") center 42%/cover}
+.hero-premium{min-height:680px;background:linear-gradient(90deg,rgba(7,21,35,.94) 0%,rgba(7,21,35,.82) 48%,rgba(7,21,35,.3) 100%),url("assets/photos/hero-construction.png?v=github-pages-assets-15") center 42%/cover}
 .hero-premium .hero-grid{display:block;padding-block:clamp(6rem,10vw,8.5rem)}
 .hero-premium .hero-copy{max-width:900px}
 .hero-premium .hero-copy h1{max-width:12ch;font-family:var(--sans);font-size:clamp(3.6rem,7vw,6.8rem);font-weight:800;letter-spacing:-.065em;line-height:.98}
