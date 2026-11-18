@@ -453,3 +453,10 @@ main#main>section[id]{scroll-margin-top:105px}
 .about-commitment-statement h3{color:#fff}
 .about-commitment-statement p{color:#dbe5ec}
 .about-commitment-statement strong{color:#e3c891}
+
+
+/* WHO WE ARE highlighted panel */
+.about-heading-highlight{margin-bottom:1.35rem;padding:clamp(1.2rem,2.4vw,1.8rem);border:1px solid rgba(195,163,108,.55);border-left:5px solid var(--gold);background:linear-gradient(115deg,#10243a 0%,#183b57 100%);box-shadow:0 16px 34px rgba(16,36,58,.16)}
+.about-heading-highlight .eyebrow{margin-bottom:.85rem;color:#e3c891}
+.about-heading-highlight h2{max-width:16ch;margin:0;color:#fff}
+@media(max-width:640px){.about-heading-highlight{padding:1.1rem}}
